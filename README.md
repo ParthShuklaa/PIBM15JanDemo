@@ -1,27 +1,59 @@
-# ClientDemo
+## PIBM15JanDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Enterprise-focused **Angular training and demonstration project** created as part of
+a **PIBM (Pune Institute of Business Management) Frontend Development session**.
 
-## Development server
+This repository represents a **hands-on Angular application** used to introduce
+learners to **modern frontend frameworks, component-based architecture, and
+Angular CLI workflows** in a structured, instructor-led environment.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+### 🎯 Training Objective
+To help learners:
+- Understand **Angular fundamentals and project structure**
+- Work with **Angular CLI for scaffolding and builds**
+- Learn **component-based architecture**
+- Explore **configuration, testing, and build pipelines**
+- Gain exposure to **real-world frontend project setup**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+### 🛠️ Tech Stack
+- Angular 13.1.2
+- TypeScript
+- HTML5
+- CSS3
+- Node.js & npm
+- Angular CLI
+- Karma (Unit Testing)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+### 🧱 Architecture Overview
+This project follows **standard Angular enterprise architecture**:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- `angular.json` → Workspace & build configuration
+- `src/app` → Component-based UI structure
+- `package.json` → Dependency & script management
+- `tsconfig*.json` → TypeScript compilation setup
+- `karma.conf.js` → Unit testing configuration
 
-## Running end-to-end tests
+The structure is intentionally kept **close to real enterprise projects**
+to familiarize learners with **production-grade Angular applications**.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+### 🤖 AI Usage
+❌ No AI-assisted development  
+✅ Designed for **manual coding, architectural understanding, and CLI mastery**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+### ▶️ How to Run
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+ng serve
